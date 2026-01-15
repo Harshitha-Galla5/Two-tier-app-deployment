@@ -1,0 +1,21 @@
+# Ignore temporary directories and hidden files
+**/.git
+**/.svn
+**/.hg
+**/.idea
+**/.vscode
+# Ignore build output and dependencies that should not be copied
+**/node_modules
+**/vendor
+**/dist
+**/build
+**/target
+*.log
+npm-debug.log*
+# Ignore Docker-specific files and related documentation
+Dockerfile
+docker-compose.yml
+README.md
+# Ignore configuration files that are for development only
+*.env
+.env.*
