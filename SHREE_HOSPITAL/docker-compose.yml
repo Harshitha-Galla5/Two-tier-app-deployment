@@ -1,6 +1,6 @@
 services:
   hospital-app:
-    image: hospital-app:1.0.0
+    image: harshitha30galla/hospital-app
     build:
       context: .
       dockerfile: Dockerfile
